@@ -16,3 +16,5 @@ Is the app responsive?
 What did i use to create this app?
 
 - React, TypeScript, Redux, openweathermap apis, tailwindCSS, tailwind-scrollbar-hide, react-transition-group, react-icons, canva for colors
+
+You can check app here: https://honey-weatherapp.netlify.app/

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+* {
+  font-family: 'Inter', sans-serif;
+}
+body {
+  background-color: #7ec8e3;
+}
+.my-comp-enter {
+  opacity: 0;
+}
+.my-comp-enter-active {
+  opacity: 1;
+  transition: opacity 700ms;
+}
+.my-comp-exit {
+  opacity: 1;
+}
+.my-comp-exit-active {
+  opacity: 0;
+  transition: opacity 700ms;
+}
+.my-node-enter {
+  opacity: 0;
+}
+.my-node-enter-active {
+  opacity: 1;
+  transition: opacity 900ms;
+}
+.my-node-exit {
+  opacity: 1;
+}
+.my-node-exit-active {
+  opacity: 0;
+  transition: opacity 900ms;
+}

@@ -7,7 +7,9 @@
   font-family: 'Inter', sans-serif;
 }
 body {
-  background-color: #7ec8e3;
+  background-image: url(./bg/cloud-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .my-comp-enter {
   opacity: 0;
